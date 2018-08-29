@@ -1,8 +1,11 @@
-#include <stdio.h>
+/* Fig. 2.1: fig02_01.c
+ A first program in C */
+ #include <stdio.h>
 
-int main()
-{
-    printf("Welcome to C!\n");
+ /* function main begins program execution */
+ int main( void )
+ {
+ printf( "Welcome to C!\n" );
 
-    return 0;
-}
+ return 0; /* indicate that program ended successfully */
+ } /* end function main */
